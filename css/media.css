@@ -1,0 +1,229 @@
+@media only screen and (max-width: 1224px) {
+	.container {
+		width: 100%;
+	}
+
+	.list-clients button.slick-next {
+		right: calc(100% - 50vw);
+	}
+
+	.list-clients button.slick-prev {
+		left: calc(100% - 50vw);
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	.list-tools .list-item {
+		width: 33.33%;
+		padding-bottom: 20px;	
+	}
+
+	.list-works .list-item {
+		width: 25%;
+	}
+
+	#card-1 .card-image {
+		left: 5%;
+	}
+
+	#card-4 .card-image {
+		right: 5%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.mobile-nav {
+    	display: block;
+	}
+
+	.navbar {
+		display: none;
+	}
+
+	.section-main .section-title {
+		font-size: 48px;
+		width: 100%;
+	}
+
+	.list-services .list-item {
+		width: 50%;
+		padding-bottom: 20px;
+	}
+
+	.list-works .list-item {
+		width: 33.33%;
+	}
+
+	.ui-tabs {
+		display: flex;
+		margin-top: 40px;
+	}
+
+	.section-team .section-body {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.ui-tabs .ui-tabs-nav {
+		flex-direction: column;
+	}
+
+	.ui-tabs .ui-tabs-nav li {
+		width: 200px;
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.header-right {
+		padding-top: 20px;
+	}
+
+	.navbar {
+		width: 100%;
+	}
+
+	.list-tools .list-item {
+		width: 50%;
+	}
+
+	.section-works .filter {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.filter-item:after {
+		display: none;
+	}
+
+	.list-statistic .list-item {
+		width: 50%;
+		padding-bottom: 20px;
+	}
+
+	.list-skills {
+		flex-wrap: wrap;
+	}
+
+	.list-skills .list-item {
+		width: 50%;
+		padding-bottom: 20px;
+	}
+
+	.ui-tabs .ui-tabs-nav li {
+		width: 120px;
+	}
+
+	.card-team .card-name {
+		font-size: 13px;
+	}
+
+	.card-team .card-position {
+		font-size: 11px;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.navbar {
+		flex-wrap: wrap;
+	}
+
+	.section-main .section-title {
+		font-size: 37px;
+		width: 100%;
+	}
+
+	.filter {
+		justify-content: center;
+	}
+
+	.list-about-us .list-item {
+		width: 100%;
+	}
+
+	#card-2 .card-image {
+		left: 30%;
+	}
+
+	#card-3 .card-image {
+		right: 30%;
+	}
+
+	.list-contacts {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.list-contacts .list-item:after {
+		display: block;
+		content: "";
+		width: 150px;
+		height: 3px;
+		background-color: var(--color-primary);
+		margin: 20px auto 0;
+	}
+
+	.form-contact-us .row-form {
+		display: block;
+	}
+
+	.form-contact-us .column-3 {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+	.list-contacts .list-item {
+		width: 100%;
+	}
+
+	.list-contacts .list-item:last-child:after {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.navbar {
+		justify-content: center;
+	}
+
+	.list-services .list-item {
+		width: 100%;
+	}
+
+	.list-tools .list-item {
+		width: 100%;
+	}
+
+	.list-works .list-item {
+		width: 50%;
+	}
+
+	.list-statistic .list-item {
+		width: 100%;
+	}
+	.card-about-us {
+		display: block;
+		text-align: center;
+	}
+	.card-about-us .card-icon {
+		margin: 0 auto 20px;
+	}
+	.card-about-us .card-left {
+		padding: 0;
+	}
+	.list-skills .list-item {
+		width: 100%;
+	}
+
+	.ui-tabs .ui-tabs-panel {
+		padding: 0;
+	}
+
+	.section-team .card-expand .card-title {
+    	padding-top: 20px;
+    	padding-bottom: 10px;
+	}
+}
+

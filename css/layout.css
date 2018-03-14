@@ -1,0 +1,115 @@
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 16px;
+	padding-bottom: 20px;
+}
+
+.section-main .section-action {
+	margin-bottom: 40px;
+}
+
+.section-main .arrow-down {
+	position: absolute;
+	left: calc(50% - 30px);
+	bottom: 0;
+}
+
+.section-services .section-heading {
+	padding-top: 10px;
+}
+
+.section-services .section-body {
+	padding-top: 60px;
+	padding-bottom: 11px;
+}
+
+.section-tools .section-body {
+	padding-top: 50px;
+	padding-bottom: 19px;
+}
+
+.section-works .section-body {
+	padding-top: 52px;
+}
+
+.section-works .section-heading {
+	padding-top: 14px;
+}
+
+.section-portfolio {
+	padding-top: 30px;
+}
+
+.section-portfolio .section-heading {
+	padding-top: 0px;
+}
+
+.section-portfolio .section-action {
+	text-align: center;
+	padding-top: 57px;
+	padding-bottom: 8px;
+}
+
+.section-statistic .section-body {
+	padding-top: 56px;
+	padding-bottom: 9px;
+}
+
+.section-about-us .section-heading {
+	padding-top: 15px;
+}
+
+.section-about-us .section-body {
+	padding-top: 67px;
+}
+
+.section-team .section-body {
+	padding-top: 54px;
+	padding-bottom: 15px;
+}
+
+.section-skills .section-body {
+	padding-top: 55px;
+}
+
+.section-clients .section-heading {
+	padding-top: 14px;
+}
+
+.section-clients .section-body {
+	padding-top: 91px;
+	padding-bottom: 96px;
+}
+
+.section-quote .section-body {
+	padding-top: 17px;
+}
+
+.section-contacts .section-heading {
+	padding-top: 11px;
+}
+
+.section-contacts .section-body {
+	padding-top: 58px;
+	padding-bottom: 6px;
+}
+
+.section-contact-us .section-body {
+	padding-top: 59px;
+}
+
+.section-contact-us .section-action {
+	padding-top: 25px;
+	padding-bottom: 13px;
+    text-align: center;
+}
+
+.footer .footer-body {
+	padding-top: 22px;
+}
+
+.footer .footer-action {
+	padding-top: 42px;
+}

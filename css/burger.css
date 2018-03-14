@@ -1,0 +1,86 @@
+.hidden-menu-ticker {
+    display: none;
+}
+
+.btn-menu {
+    color: var(--color-primary);
+    background-color: inherit;
+    padding: 5px;
+    position: fixed;
+    top: 33px;
+    right: 33px;
+    cursor: pointer;
+    transition: left .23s;
+    z-index: 3;
+    width: 33px;
+}
+
+.btn-menu:hover {
+    opacity: .7;
+}
+
+.btn-menu span.first {
+    margin-top: 0;
+}
+
+.btn-menu span {
+    display: block;
+    height: 5px;
+    width: 33px;
+    background-color: var(--color-primary);
+    margin: 5px 0 0;
+    transition: all .1s linear .3s;
+    position: relative;
+}
+
+.hidden-menu {
+    display: block;
+    position: fixed;
+    list-style: none;
+    padding: 10px;
+    padding-top: 27px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 220px;
+    background-color: var(--color-bg-dark);
+    height: 100%;
+    top: 0;
+    left: -220px;
+    transition: left .3s;
+    z-index: 2;
+}
+
+.hidden-menu li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hidden-menu a {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    padding: 10px 5px;
+}
+
+.hidden-menu a:hover {
+    opacity: .7;
+}
+
+.hidden-menu-ticker:checked ~ .btn-menu {
+  left: 160px;
+}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+  left: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.first {
+  -webkit-transform: rotate(45deg);
+  top: 10px;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.second {
+  opacity: 0;
+}
+.hidden-menu-ticker:checked ~ .btn-menu span.third {
+  -webkit-transform: rotate(-45deg);
+  top: -10px;
+}

@@ -1,0 +1,91 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.icon-address {
+    width: 1.1611328125em;
+}
+
+.icon-arrows-down {
+    width: 1.0478515625em;
+    font-size: 19px;
+    fill: #ffffff;
+}
+
+.icon-arrows-up {
+    width: 1.0478515625em;
+    fill: #ffffff;
+}
+
+.icon-communicate {
+    width: 1.125em;
+}
+
+.icon-deliver {
+    width: 1.2568359375em;
+}
+
+.icon-developing {
+    width: 1.0224609375em;
+}
+
+.icon-dribble {
+    width: 0.9501953125em;
+}
+
+.icon-expirience {
+    width: 0.9697265625em;
+}
+
+.icon-facebook {
+    width: 0.5234375em;
+}
+
+.icon-finalyse {
+    width: 0.9580078125em;
+}
+
+.icon-google {
+    width: 1.2001953125em;
+}
+
+.icon-graphic-design {
+    width: 0.9765625em;
+}
+
+.icon-mail {
+    width: 1.060546875em;
+}
+
+.icon-phone {
+    width: 1.029296875em;
+}
+
+.icon-photography {
+    width: 1.2060546875em;
+}
+
+.icon-testing {
+    width: 0.9541015625em;
+}
+
+.icon-time {
+    width: 0.9169921875em;
+}
+
+.icon-twitter {
+    width: 1.2109375em;
+}
+
+.icon-web-design {
+    width: 1.10546875em;
+}
+
+.icon-working {
+    width: 1.06640625em;
+}

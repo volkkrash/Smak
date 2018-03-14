@@ -1,0 +1,49 @@
+input {
+	padding-left: 18px; 
+	width: 100%;
+	height: 59px;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	font-family: 'Oswald', 'Arial', sans-serif;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.8;
+}
+
+textarea {
+	width: 100%;
+	height: 220px;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	resize: vertical;
+	font-family: 'Oswald', 'Arial', sans-serif;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.8;
+	padding: 14px 18px;
+	overflow: hidden;
+}
+
+.form-contact-us {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.row-form:first-child {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column-3 {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 28px;
+	width: 33.33%;
+}
+
+.column {
+	padding-left: 15px;
+	padding-right: 15px;
+}
